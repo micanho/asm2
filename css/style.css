@@ -1,0 +1,324 @@
+#container {
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+#inner {
+  overflow: hidden;
+  width: 10%px;
+}
+.child{
+  float: left;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.logo {
+  float: left;
+  background-color: white;
+  width: 150px;
+  height: 100px;
+}
+
+.lydo{
+  float: left;
+  background-color: white;
+  width: 170px;
+  height: 100px;
+}
+
+.lydo a:hover {
+  background-color: #db7093;
+  color: #FF6600;
+  font-weight: bold
+}
+
+.ts{
+  float: left;
+  background-color: white;
+  width: 220px;
+  height: 100px;
+}
+
+.ts a:hover {
+  background-color: #db7093;
+  color: #FF6600;
+  font-weight: bold
+}
+
+.dk{
+  float: left;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.dk a:hover {
+  background-color: #db7093;
+  color: #FF6600;
+  font-weight: bold
+}
+
+.ts a:hover {
+  background-color: #db7093;
+  color: #FF6600;
+  font-weight: bold
+}
+
+.cn{
+  float: left;
+  background-color: white;
+  width: 230px;
+  height: 100px;
+}
+
+.cn a:hover {
+  background-color: #db7093;
+  color: #FF6600;
+  font-weight: bold
+}
+
+.mail{
+  float: left;
+  background-color: white;
+  width: 220px;
+  height: 100px;
+}
+
+.dt{
+  float: left;
+  background-color: white;
+  width: 300px;
+  height: 100px;
+}
+
+#rectangle {
+	float:right;
+    width: 220px;
+    height: 50px;
+    background: #4da1f7;
+}
+
+#space {
+	float:right;
+    width: 30px;
+    height: 50px;
+    background: #4da1f7;
+}
+
+.footer {
+	position: absolute;
+	bottom: -525px;
+	width: 1650px;
+	height: 60px;
+	background: #6cf;
+	left: 0px;
+}
+
+.footer #rectangle {
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+}
+.content-detail {
+    display: grid;
+    grid-template-columns: 310px auto;
+    grid-gap: 30px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 500px;
+  right: 300px;
+  background-color: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align:center;
+}
+.pld{
+	position: relative;
+   font-family: Arial;
+}
+.text-block {
+  position: absolute;
+  bottom: 500px;
+  right: 300px;
+  background-color: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align:center;
+}
+
+
+#a{
+	float:left;
+	width:500px;
+	height:300px;
+}
+
+
+#b{
+	float:left;
+	position: relative;
+}
+
+#b img{
+	width:500px;
+	height:300px;
+}
+
+.ct1{
+	position: absolute;
+	width: 1660px;
+	height: 220px;
+	left: 0px;
+	top: 96px;
+	background: rgba(196, 196, 196, 0.8);
+}
+
+.ct2{
+	position: absolute;
+	width: 1433px;
+	height: 122px;
+	left: 13px;
+	top: 249px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 44px;
+	color: #000000;
+}
+
+.ct3{
+	position: absolute;
+	width: 1242px;
+	height: 580px;
+	left: 198px;
+	top: 316px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+
+.dkform{
+	position: absolute;
+	width: 614px;
+	height: 779px;
+	left: 834px;
+	top: 266px;
+	background: #FF8227;
+	border-radius: 30px;
+}
+
+.dk1{
+	/* ĐĂNG KÝ */
+
+	position: absolute;
+	width: 171px;
+	height: 45px;
+	left: 1041px;
+	top: 292px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 44px;
+	color: #FFFFFF;
+
+}
+
+
+.dkten{
+	position: absolute;
+	width: 538px;
+	height: 60px;
+	left: 860px;
+	top: 345px;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+
+.dkdt{
+	position: absolute;
+	width: 538px;
+	height: 60px;
+	left: 861px;
+	top: 434px;
+	background: #FFFDFD;
+	border-radius: 30px;
+
+}
+
+
+.dkmail{
+	position: absolute;
+	width: 538px;
+	height: 60px;
+	left: 860px;
+	top: 523px;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+
+.dknganh{
+	position: absolute;
+	width: 538px;
+	height: 60px;
+	left: 861px;
+	top: 610px;
+	background: #FFFCFC;
+	border-radius: 30px;
+}
+
+
+.dkdiadiem{
+	position: absolute;
+	width: 538px;
+	height: 60px;
+	left: 863px;
+	top: 698px;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+
+.dklink{
+	position: absolute;
+	width: 538px;
+	height: 60px;
+	left: 863px;
+	top: 786px;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+
+.dkbtBox{
+	position: absolute;
+	width: 234px;
+	height: 73px;
+	left: 1007px;
+	top: 897px;
+	background: #024686;
+	border-radius: 30px;
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
